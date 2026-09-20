@@ -1,3 +1,5 @@
+package four;
+
 public class Student {
     int no;
     String name;
