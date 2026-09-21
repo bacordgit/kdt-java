@@ -29,7 +29,7 @@ public class Post {
             System.out.println("reject=empty-title");
             return;
         }
-        this.title = title;
+        this.title = next;
     }
 
     public void close() {
