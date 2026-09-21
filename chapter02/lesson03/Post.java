@@ -9,6 +9,9 @@ public class Post {
         this.body=body;
         count++;
     }
+    public Post(){
+
+    }
     public static int getCount(){
         return count;
     }
