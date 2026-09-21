@@ -3,9 +3,9 @@ package chapter02.lesson03;
 public class Human {
     private String name;
     private int age;
-    private String gender;
+    private boolean gender;
 
-    public Human(int age, String gender, String name) {
+    public Human(int age, boolean gender, String name) {
         this.age = age;
         this.gender = gender;
         this.name = name;
@@ -19,7 +19,7 @@ public class Human {
         this.age = age;
     }
 
-    public void setGender(String gender) {
+    public void setGender(boolean gender) {
         this.gender = gender;
     }
 }
