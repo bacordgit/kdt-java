@@ -1,11 +1,16 @@
 package chapter02.lesson03;
 
 public class Post {
+    private static int count=0;
     private String title;                        // 문제를 확인하기 위한 임시 public 필드
     private String body;
     public Post(String title,String body){
         this.title=title;
         this.body=body;
+        count++;
+    }
+    public static int getCount(){
+        return count;
     }
 
     public void print() {
