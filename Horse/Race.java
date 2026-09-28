@@ -36,10 +36,22 @@ public class Race {
     public int strategyChoiceAt(int index){
         return strategy.get(index);
     }
-    public void clearRecords(int index){
-        horseName.remove(index);
-        jockeyName.remove(index);
-        strategy.remove(index);
+    public void clearRecords(){
+        records.clear();
+    }
+    public void addRecord(String line){
+        records.add(line);
+    }
+    public ArrayList<String> getRecords(){
+        return new ArrayList<>(records);
+
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
 }
