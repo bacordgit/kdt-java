@@ -41,7 +41,5 @@ public class Race {
         jockeyName.remove(index);
         strategy.remove(index);
     }
-    public void addRecord(){
-        ArrayList
-    }
+
 }
